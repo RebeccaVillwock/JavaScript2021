@@ -1,0 +1,42 @@
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: $font-size-base; /* Increase font size */
+  color: $primary; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top */
+#_summary {
+  top: 20px;
+  background-color: $info;
+  font-weight: bold;
+}
+
+#_education {
+  top: 80px;
+  background-color: $info;
+  font-weight: bold;
+}
+
+#_skills {
+  top: 140px;
+  background-color: $info;
+  font-weight: bold;
+}
+
+#_experience {
+  top: 200px;
+  background-color: $info;
+  font-weight: bold;
+}
+

@@ -1,0 +1,87 @@
+
+
+// include variables to override bootstrap
+@import "Theme/variables";
+// include bootstrap
+// @import "bootstrap/bootstrap";
+@import "Bootstrap/functions";
+@import "Bootstrap/variables";
+@import "Bootstrap/mixins";
+@import "Bootstrap/root";
+@import "Bootstrap/reboot";
+@import "Bootstrap/type";
+@import "Bootstrap/images";
+@import "Bootstrap/code";
+@import "Bootstrap/grid";
+@import "Bootstrap/tables";
+@import "Bootstrap/forms";
+@import "Bootstrap/buttons";
+@import "Bootstrap/transitions";
+@import "Bootstrap/dropdown";
+@import "Bootstrap/button-group";
+@import "Bootstrap/input-group";
+@import "Bootstrap/custom-forms";
+@import "Bootstrap/nav";
+@import "Bootstrap/navbar";
+@import "Bootstrap/card";
+@import "Bootstrap/breadcrumb";
+@import "Bootstrap/pagination";
+@import "Bootstrap/badge";
+@import "Bootstrap/jumbotron";
+@import "Bootstrap/alert";
+@import "Bootstrap/progress";
+@import "Bootstrap/media";
+@import "Bootstrap/list-group";
+@import "Bootstrap/close";
+@import "Bootstrap/toasts";
+@import "Bootstrap/modal";
+@import "Bootstrap/tooltip";
+@import "Bootstrap/popover";
+@import "Bootstrap/carousel";
+@import "Bootstrap/spinners";
+@import "Bootstrap/utilities";
+@import "Bootstrap/print";
+
+// anything done after this will override bootstrap
+.additional-class {
+  color: $danger;
+}
+body {
+  background-color: $secondary;
+}
+.jumbotron .title {
+  font-size: $font-size-base * 2;
+}
+.jumbotron {
+  background-color: #344966;
+  color: #F0F4EF;
+  font-size: $font-size-base * 1.3;
+}
+.icons{
+  font-size: $font-size-base * 2;
+
+}
+.icons:hover{
+  color: white;
+}
+.container{
+  background-color: $tertiary;
+}
+.courses-taken{
+  font-size: $font-size-base * 1.5;
+}
+.job-duties{
+  font-size: $font-size-base * 1.5;
+}
+.education-date{
+  font-size: $font-size-base * 1.5;
+}
+
+
+// add additional components
+@import "Components/divider";
+@import "Components/skills";
+@import "Components/flipcards";
+@import "Components/topnav";
+@import "Components/scrollprogress";
+@import "Components/modal";

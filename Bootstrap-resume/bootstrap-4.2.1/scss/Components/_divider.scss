@@ -1,0 +1,22 @@
+/* Dashed border */
+hr.dashed {
+  border-top: 3px dashed #bbb;
+
+  /* Dotted border */
+  .dotted {
+    border-top: 3px dotted #bbb;
+  }
+
+  /* Solid border */
+  .solid {
+    border-top: 3px solid #bbb;
+  }
+
+  /* Rounded border */
+  .rounded {
+    border-top: 8px solid white;
+    border-radius: 5px;
+
+  }
+}
+
